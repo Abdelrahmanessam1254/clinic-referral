@@ -1,11 +1,5 @@
 import { z } from "zod";
 
-// This schema is the SINGLE SOURCE OF TRUTH for referral data shape.
-// It's imported by:
-//   - apps/web/components/ReferralForm.tsx  (client-side validation)
-//   - apps/web/server/routers/referral.ts   (server-side validation)
-// Both sides always stay in sync automatically.
-
 export const referralSchema = z.object({
   // Patient info
   patientFirstName: z.string().min(1, "First name is required"),

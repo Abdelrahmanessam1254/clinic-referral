@@ -16,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* Providers must wrap children so every page has tRPC + React Query context */}
         <Providers>{children}</Providers>
       </body>
     </html>

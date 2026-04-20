@@ -2,8 +2,6 @@ import * as fs from "fs";
 import * as path from "path";
 import type { Config } from "drizzle-kit";
 
-// drizzle-kit does not read .env.local automatically — only Next.js does.
-// This manually parses the file and loads the variables before drizzle-kit reads them.
 const envPath = path.resolve(__dirname, ".env.local");
 if (fs.existsSync(envPath)) {
   const lines = fs.readFileSync(envPath, "utf-8").split("\n");

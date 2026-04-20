@@ -1,0 +1,16 @@
+
+> @clinic/web@0.0.1 test
+> vitest run
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mC:/Users/bodye/clinic-referral/apps/web[39m
+
+ [32m✓[39m __tests__/schema.test.ts [2m ([22m[2m18 tests[22m[2m)[22m[90m 32[2mms[22m[39m
+ [32m✓[39m __tests__/referral.router.test.ts [2m ([22m[2m6 tests[22m[2m)[22m[90m 56[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[32m24 passed[39m[22m[90m (24)[39m
+[2m   Start at [22m 02:24:24
+[2m   Duration [22m 14.27s[2m (transform 418ms, setup 0ms, collect 1.99s, tests 88ms, environment 1ms, prepare 23.65s)[22m
+
