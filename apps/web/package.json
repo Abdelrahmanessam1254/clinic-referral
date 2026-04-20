@@ -1,0 +1,44 @@
+{
+  "name": "@clinic/web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@clinic/shared": "*",
+    "@hookform/resolvers": "^3.3.0",
+    "@neondatabase/serverless": "^0.10.4",
+    "@tanstack/react-query": "^5.0.0",
+    "@trpc/client": "^11.0.0",
+    "@trpc/react-query": "^11.0.0",
+    "@trpc/server": "^11.0.0",
+    "drizzle-orm": "^0.38.0",
+    "next": "14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "autoprefixer": "^10.0.0",
+    "drizzle-kit": "^0.30.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
